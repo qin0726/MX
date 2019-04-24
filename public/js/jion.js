@@ -1,0 +1,10 @@
+//jion也好品牌有温度效果
+$(".brand-item").mouseover(function(){
+    $(this).find("div").css("transition","50s");
+    $(this).find("div").css("transition-timing-function","linear");
+    $(this).find("div").css("transform","rotateZ(18000deg)");
+})
+$(".brand-item").mouseleave(function(){
+    $(this).find("div").css("transition","1s");
+    $(this).find("div").css("transform","rotateZ(0deg)")
+})

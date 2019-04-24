@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <title>麦香小屋</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <style>
+        a{
+            text-decoration: none;
+            color:#000;
+        };
+        #register-box{
+            width:1000px;
+            border:1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <!----------------------------- header -------------------------->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"></a>
+            </div>
+            <nav class="navbar">
+                <ul class="nav">
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="food.html">本店特色</a>
+                    </li>
+                    <li>
+                        <a href="join.html">诚邀加盟</a>
+                    </li>
+                    <li>
+                        <a href="history.html">小店概况</a>
+                    </li>
+                    <li>
+                        <a href="about.html">联系我们</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="clear"></div>
+    <!--------------------主体部分-------------------->
+    <section  id="register-box">
+            <h1>欢迎注册</h1>
+            <div class="form-group">
+                <div class="col-3">
+                    <label class="control-label" for="uname">用户名：</label>
+                </div>
+                <div class="col-5">
+                    <input class="form-control" id="uname" placeholder="请输入您想注册的用户名">
+                </div>
+        
+                <div class="col-4">
+                    <span class="uname-msg">用户名可以包含数字或字母</span>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="form-group">
+                <div class="col-3">
+                    <label class="control-label" for="upwd">密  &nbsp; 码：</label>
+                </div>
+                <div class="col-5">
+                    <input class="form-control" id="upwd" placeholder="请输入您想注册的密码">
+                </div>
+                <div class="col-4">
+                    <span class="upwd-msg">密码长度在6~12位之间</span>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="form-group">
+                <div class="col-3">
+                    <label class="control-label" for="upwd1">确认密码：</label>
+                </div>
+                <div class="col-5">
+                    <input class="form-control" id="upwd1" placeholder="请输入您确认密码">
+                </div>
+                <div class="col-4">
+                    <span class="upwd-msg1"></span>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="form-group" id="reg-btn-box">
+                <div class="col-4">
+                    <input id="bt-register" type="button" value="注册">
+                </div>
+            </div>
+            </form>
+        </section>
+    <!----------------------footer--------------------------->
+    <footer id="footer">
+        <div class="container">
+            <div class="copy">©AUI 川ICP备19006025号-1</div>
+            <div class="copy">
+                    Copyright © 2014-2019 www.Maix.cn 
+                    <span>地址：成都市锦江区明宇金融广场</span>
+            </div>
+        </div>
+    </footer>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>
